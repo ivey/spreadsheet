@@ -1,9 +1,10 @@
+# -*- coding: utf-8 -*-
 require 'spreadsheet/excel/internals'
 require 'spreadsheet/writer'
 require 'spreadsheet/excel/writer/biff8'
 require 'spreadsheet/excel/writer/format'
 require 'spreadsheet/excel/writer/worksheet'
-require 'ole/file_system'
+require 'ole/storage'
 
 module Spreadsheet
   module Excel
